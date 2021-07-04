@@ -27,13 +27,16 @@
 .welcome_section {
   padding: 40px 0px;
   background: url(./images/top-banner.png) no-repeat left top;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .welcome_section h1,
 .welcome_section h2,
 .welcome_section h4,
-.welcome_section p {
+.welcome_section p,
+.dream_section h1,
+.dream_section h4,
+.dream_section p {
   color: #252525;
   font-family: "Bona Nova", serif;
   font-weight: 700;
@@ -51,20 +54,23 @@
   color: orange;
 }
 
-.welcome_section h4 {
+.welcome_section h4,
+.dream_section h4 {
   font-size: 1.3rem;
   padding: 0px 0px 10px 0px;
   font-weight: 400;
 }
 
-.welcome_section p {
-  font-size: 15px;
+.welcome_section p,
+.dream_section p {
+  font-size: 16px;
   padding: 0px;
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
-.welcome_section a {
+.welcome_section a,
+.dream_section a {
   padding: 10px 20px;
   color: #fff;
   background: linear-gradient(45deg, lightsalmon, tomato);
@@ -72,6 +78,7 @@
   text-decoration: none;
   font-family: "Bona Nova", serif;
   font-weight: 700;
+  border-radius: 7px;
 }
 
 .welcome_section .right_item {
@@ -80,6 +87,28 @@
   margin-left: 3%;
 }
 
-.welcome_section img {
+.welcome_section img,
+.dream_section img {
   width: 100%;
+}
+
+/* welcome_section is done */
+
+.dream_section {
+  padding: 30px 0px;
+  background: url(./images/dream-bg.png) no-repeat right center;
+  margin-bottom: 80px;
+}
+
+.dream_section h1 {
+  font-size: 3rem;
+}
+
+.dream_section .left_item {
+  width: 43%;
+  margin-right: 3%;
+}
+
+.dream_section .right_item {
+  padding-left: 30px;
 }
