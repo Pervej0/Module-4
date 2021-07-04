@@ -97,7 +97,7 @@
 .dream_section {
   padding: 30px 0px;
   background: url(./images/dream-bg.png) no-repeat right center;
-  margin-bottom: 80px;
+  margin-bottom: 0px;
 }
 
 .dream_section h1 {
@@ -112,3 +112,70 @@
 .dream_section .right_item {
   padding-left: 30px;
 }
+/* dream_section is done */
+
+.experience_section {
+  padding: 40px 0px;
+  background: url(./images/exp-bg.png) no-repeat left center;
+}
+
+.experience_section .title {
+  margin-bottom: 15px;
+  color: #252525;
+  font-family: "Bona Nova", serif;
+  font-weight: 700;
+  font-size: 2.7rem;
+  padding: 40px 0px 25px 0px;
+  margin: 0px;
+}
+
+.experience_section .container .box {
+  width: 47%;
+  padding: 30px 25px 70px 25px;
+}
+
+.experience_section .container .left_item {
+  box-shadow: 5px 7px 40px grey;
+  margin-right: 3%;
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+}
+
+.experience_section .container .right_item {
+  box-shadow: 5px 7px 40px grey;
+  margin-left: 3%;
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+
+.experience_section .container h1 {
+  color: #252525;
+  font-family: "Bona Nova", serif;
+  font-weight: 700;
+  font-size: 1.9rem;
+  padding: 15px 0px 15px 0px;
+  margin: 0px;
+}
+
+.experience_section .container h4 {
+  color: orange;
+  font-family: "Bona Nova", serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  padding: 10px 0px 5px 0px;
+  margin: 0px;
+}
+
+.experience_section .container p {
+  color: gray;
+  font-family: "Bona Nova", serif;
+  font-weight: 400;
+  font-size: 17px;
+  margin: 0px;
+  text-align: justify;
+  margin-top: 6px;
+}
+
+/* experience_section done */
