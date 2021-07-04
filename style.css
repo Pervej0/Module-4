@@ -1,14 +1,17 @@
-<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap");
 
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   outline: 0;
   box-sizing: border-box;
 }
 
-body {
+.full_container {
+  width: 100%;
+  margin: 0 auto;
+}
+.container {
   width: 90%;
   margin: 0 auto;
 }
@@ -23,6 +26,8 @@ body {
 
 .welcome_section {
   padding: 40px 0px;
+  background: url(./images/top-banner.png) no-repeat left top;
+  margin-bottom: 80px;
 }
 
 .welcome_section h1,
@@ -34,6 +39,7 @@ body {
   font-weight: 700;
   font-size: 4.5rem;
   padding: 40px 0px 25px 0px;
+  margin: 0px;
 }
 
 .welcome_section h2 {
@@ -77,6 +83,3 @@ body {
 .welcome_section img {
   width: 100%;
 }
-=======
-
->>>>>>> 76b3a268ef2637228cfc3ae0f538348c054f1c91
