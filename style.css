@@ -179,3 +179,12 @@
 }
 
 /* experience_section done */
+
+footer p {
+  padding: 20px 0px;
+  text-align: center;
+  color: gray;
+  font-family: "Bona Nova", serif;
+  font-weight: 400;
+  font-size: 17px;
+}
